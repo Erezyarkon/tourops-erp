@@ -1,0 +1,7 @@
+﻿{
+  "app": {"title":"Tourops ERP","settings":"הגדרות","logout":"יציאה"},
+  "nav": {"dashboard":"לוח בקרה","quotes":"הצעות מחיר","bookings":"הזמנות","suppliers":"ספקים","settings":"הגדרות"},
+  "quote":{"new":"הצעה חדשה","generatePdf":"יצוא PDF","createBooking":"צור הזמנה"},
+  "settings":{"company":"הגדרות חברה","logo":"לוגו חברה","upload":"העלה לוגו","save":"שמור"},
+  "common":{"language":"שפה","english":"English","hebrew":"עברית"}
+}

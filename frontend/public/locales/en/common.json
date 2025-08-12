@@ -1,0 +1,7 @@
+﻿{
+  "app": {"title":"Tourops ERP","settings":"Settings","logout":"Log out"},
+  "nav": {"dashboard":"Dashboard","quotes":"Quotes","bookings":"Bookings","suppliers":"Suppliers","settings":"Settings"},
+  "quote":{"new":"New Quote","generatePdf":"Generate PDF","createBooking":"Create Booking"},
+  "settings":{"company":"Company Settings","logo":"Company Logo","upload":"Upload Logo","save":"Save"},
+  "common":{"language":"Language","english":"English","hebrew":"Hebrew"}
+}
