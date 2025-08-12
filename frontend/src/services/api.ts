@@ -1,0 +1,1 @@
+export const F = import.meta.env.VITE_SUPABASE_FUNCTIONS_URL || '/functions/v1';

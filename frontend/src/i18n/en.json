@@ -1,0 +1,16 @@
+{
+  "common": {
+    "save": "Save",
+    "delete": "Delete",
+    "create": "Create",
+    "generatePdf": "Generate PDF"
+  },
+  "nav": {
+    "customers": "Customers",
+    "suppliers": "Suppliers",
+    "quotes": "Quotes",
+    "bookings": "Bookings",
+    "tours": "Tours",
+    "finance": "Finance"
+  }
+}

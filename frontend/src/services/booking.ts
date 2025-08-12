@@ -1,0 +1,2 @@
+import { F } from './api';
+export async function createBookingFromQuote(quoteId:string){ const r=await fetch(`${F}/booking-from-quote`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({quoteId})}); if(!r.ok) throw new Error('fail'); return r.json(); }
