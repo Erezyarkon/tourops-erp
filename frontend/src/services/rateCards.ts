@@ -1,0 +1,4 @@
+import { F } from './api';
+export async function listRateCards(supplier_id?:string){ const r=await fetch(`${F}/rate-cards${supplier_id?`?supplier_id=${supplier_id}`:''}`); if(!r.ok) throw new Error('fail'); return r.json(); }
+export async function upsertRateCard(body:any){ const r=await fetch(`${F}/rate-cards`,{method: body.id?'PUT':'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}); if(!r.ok) throw new Error('fail'); return r.json(); }
+export async function deleteRateCard(id:string){ const r=await fetch(`${F}/rate-cards?id=${id}`,{method:'DELETE'}); if(!r.ok) throw new Error('fail'); return r.json(); }

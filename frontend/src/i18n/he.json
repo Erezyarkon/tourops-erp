@@ -1,0 +1,16 @@
+{
+  "common": {
+    "save": "שמור",
+    "delete": "מחק",
+    "create": "צור",
+    "generatePdf": "צור PDF"
+  },
+  "nav": {
+    "customers": "לקוחות",
+    "suppliers": "ספקים",
+    "quotes": "הצעות",
+    "bookings": "הזמנות",
+    "tours": "טיולים",
+    "finance": "פיננסים"
+  }
+}

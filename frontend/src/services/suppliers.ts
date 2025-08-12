@@ -1,0 +1,4 @@
+import { F } from './api';
+export async function listSuppliers(cat?:string){ const r=await fetch(`${F}/suppliers${cat?`?category=${encodeURIComponent(cat)}`:''}`); if(!r.ok) throw new Error('fail'); return r.json(); }
+export async function upsertSupplier(body:any){ const r=await fetch(`${F}/suppliers`,{method: body.id?'PUT':'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}); if(!r.ok) throw new Error('fail'); return r.json(); }
+export async function deleteSupplier(id:string){ const r=await fetch(`${F}/suppliers?id=${id}`,{method:'DELETE'}); if(!r.ok) throw new Error('fail'); return r.json(); }

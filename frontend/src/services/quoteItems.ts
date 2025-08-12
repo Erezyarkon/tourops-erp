@@ -1,0 +1,5 @@
+import { F } from './api';
+export async function listQuoteItems(quoteId:string){ const r=await fetch(`${F}/orders?quoteId=${quoteId}`); if(!r.ok) throw new Error('fail'); return r.json(); }
+export async function addQuoteItem(body:any){ const r=await fetch(`${F}/orders`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}); if(!r.ok) throw new Error('fail'); return r.json(); }
+export async function updateQuoteItem(body:any){ const r=await fetch(`${F}/orders`,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}); if(!r.ok) throw new Error('fail'); return r.json(); }
+export async function deleteQuoteItem(id:string){ const r=await fetch(`${F}/orders?id=${id}`,{method:'DELETE'}); if(!r.ok) throw new Error('fail'); return r.json(); }
